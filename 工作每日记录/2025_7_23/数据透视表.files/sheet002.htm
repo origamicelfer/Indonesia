@@ -1,0 +1,1414 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="ProgId" content="Excel.Sheet">
+  <meta name="Generator" content="WPS Office ET">
+  <link id="Main-File" rel="Main-File" href="../数据透视表.htm">
+  <link rel="File-List" href="filelist.xml">
+  <link rel="Stylesheet" href="stylesheet.css">
+  <style>
+<!-- @page
+	{margin:1.00in 0.75in 1.00in 0.75in;
+	mso-header-margin:0.50in;
+	mso-footer-margin:0.50in;}
+ -->  </style>
+  <!--[if gte mso 9]>
+   <xml>
+    <x:WorksheetOptions>
+     <x:DefaultRowHeight>920</x:DefaultRowHeight>
+     <x:Unsynced/>
+     <x:StandardWidth>2275</x:StandardWidth>
+     <x:Selected/>
+     <x:LeftColumnVisible>3</x:LeftColumnVisible>
+     <x:Panes>
+      <x:Pane>
+       <x:Number>3</x:Number>
+       <x:ActiveCol>13</x:ActiveCol>
+       <x:ActiveRow>0</x:ActiveRow>
+       <x:RangeSelection>N1</x:RangeSelection>
+      </x:Pane>
+     </x:Panes>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+     <x:PageBreakZoom>100</x:PageBreakZoom>
+     <x:Print>
+      <x:PaperSizeIndex>9</x:PaperSizeIndex>
+     </x:Print>
+    </x:WorksheetOptions>
+   </xml>
+  <![endif]-->
+  <script language="JavaScript">
+	if (window.name!="frSheet")
+		window.location.replace("../数据透视表.htm");
+	else
+		parent.fnUpdateTabs(1);
+</script>
+ </head>
+ <body link="blue" vlink="purple">
+  <table width="1433" border="0" cellpadding="0" cellspacing="0" style='width:859.80pt;border-collapse:collapse;table-layout:fixed;'>
+   <col width="80" span="13" style='width:48.00pt;'/>
+   <col width="269" style='mso-width-source:userset;mso-width-alt:7869;'/>
+   <col width="124.00" style='mso-width-source:userset;mso-width-alt:3627;'/>
+   <col width="216.00" span="49" style='mso-width-source:userset;mso-width-alt:6319;'/>
+   <col width="51.00" style='mso-width-source:userset;mso-width-alt:1492;'/>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" width="80" style='height:46.00pt;width:48.00pt;' x:str>Shop</td>
+    <td class="xl65" width="80" style='width:48.00pt;' x:str>Rank</td>
+    <td class="xl65" width="80" style='width:48.00pt;' x:str>Product ID</td>
+    <td class="xl65" width="80" style='width:48.00pt;' x:str>Product Name</td>
+    <td class="xl65" width="80" style='width:48.00pt;' x:str>PSKU</td>
+    <td class="xl65" width="80" style='width:48.00pt;' x:str>CSKU ID</td>
+    <td class="xl65" width="80" style='width:48.00pt;' x:str>CSKU Name</td>
+    <td class="xl65" width="80" style='width:48.00pt;' x:str>CSKU</td>
+    <td class="xl65" width="80" style='width:48.00pt;' x:str>Profit[利润]</td>
+    <td class="xl65" width="80" style='width:48.00pt;' x:str>Sales Amount[销售额]</td>
+    <td class="xl65" width="80" style='width:48.00pt;' x:str>Sales Volumes[销量]</td>
+    <td width="80" style='width:48.00pt;'></td>
+    <td width="80" style='width:48.00pt;'></td>
+    <td width="269" style='width:161.40pt;'></td>
+    <td width="124.00" style='width:74.40pt;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[SHOPEE]LIVING MALL.ID</td>
+    <td class="xl65" x:str>84</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199562</td>
+    <td class="xl65" x:str>ST64, 4W, Kaca Teh</td>
+    <td class="xl65" x:str>ST64, 4W, Kaca Teh</td>
+    <td class="xl65" x:str>4284975</td>
+    <td class="xl65" x:str>4284975</td>
+    <td class="xl66" align="right" x:num>449</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[SHOPEE]LIVING MALL.ID</td>
+    <td class="xl65" x:str>93</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199574</td>
+    <td class="xl65" x:str>S14, 2W, Kaca Teh</td>
+    <td class="xl65" x:str>S14, 2W, Kaca Teh</td>
+    <td class="xl65" x:str>2755375</td>
+    <td class="xl65" x:str>2755375</td>
+    <td class="xl66" align="right" x:num>410</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl67" x:str>求和项:Sales Volumes[销量]</td>
+    <td class="xl68"></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[SHOPEE]LIVING MALL.ID</td>
+    <td class="xl65" x:str>143</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199563</td>
+    <td class="xl65" x:str>G45, 2W, Kaca Teh</td>
+    <td class="xl65" x:str>G45, 2Watt, Teh</td>
+    <td class="xl65" x:str>1814400</td>
+    <td class="xl65" x:str>1814400</td>
+    <td class="xl66" align="right" x:num>254</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl67" x:str>CSKU</td>
+    <td class="xl69" x:str>汇总</td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[SHOPEE]LIVING MALL.ID</td>
+    <td class="xl65" x:str>214</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199564</td>
+    <td class="xl65" x:str>G45, 4W, Kaca Teh</td>
+    <td class="xl65" x:str>G45, 4Watt, Teh</td>
+    <td class="xl65" x:str>1048739</td>
+    <td class="xl65" x:str>1048739</td>
+    <td class="xl66" align="right" x:num>142</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl67" x:str>G45, 2Watt, Bening</td>
+    <td class="xl68" align="right" x:num>217</td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[SHOPEE]LIVING MALL.ID</td>
+    <td class="xl65" x:str>368</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199565</td>
+    <td class="xl65" x:str>G45, 4W, Kaca Bening</td>
+    <td class="xl65" x:str>G45, 4Watt, Bening</td>
+    <td class="xl65" x:str>472712</td>
+    <td class="xl65" x:str>472712</td>
+    <td class="xl66" align="right" x:num>64</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl70" x:str>G45, 2Watt, Teh</td>
+    <td class="xl71" align="right" x:num>740</td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[SHOPEE]LIVING MALL.ID</td>
+    <td class="xl65" x:str>375</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199566</td>
+    <td class="xl65" x:str>G45, 4W, HIJAU</td>
+    <td class="xl65" x:str>G45, 4W, HIJAU</td>
+    <td class="xl65" x:str>589950</td>
+    <td class="xl65" x:str>589950</td>
+    <td class="xl66" align="right" x:num>61</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl70" x:str>G45, 4W, BIRU</td>
+    <td class="xl71" align="right" x:num>94</td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[SHOPEE]LIVING MALL.ID</td>
+    <td class="xl65" x:str>376</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199571</td>
+    <td class="xl65" x:str>G45, 4W, BIRU</td>
+    <td class="xl65" x:str>G45, 4W, BIRU</td>
+    <td class="xl65" x:str>591375</td>
+    <td class="xl65" x:str>591375</td>
+    <td class="xl66" align="right" x:num>61</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl70" x:str>G45, 4W, HIJAU</td>
+    <td class="xl71" align="right" x:num>77</td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[SHOPEE]LIVING MALL.ID</td>
+    <td class="xl65" x:str>385</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199561</td>
+    <td class="xl65" x:str>G45, 2W, Kaca Bening</td>
+    <td class="xl65" x:str>G45, 2Watt, Bening</td>
+    <td class="xl65" x:str>394400</td>
+    <td class="xl65" x:str>394400</td>
+    <td class="xl66" align="right" x:num>58</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl70" x:str>G45, 4W, MERAH</td>
+    <td class="xl71" align="right" x:num>72</td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[SHOPEE]LIVING MALL.ID</td>
+    <td class="xl65" x:str>396</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199568</td>
+    <td class="xl65" x:str>G45, 4W, PINK</td>
+    <td class="xl65" x:str>G45, 4W, PINK</td>
+    <td class="xl65" x:str>551000</td>
+    <td class="xl65" x:str>551000</td>
+    <td class="xl66" align="right" x:num>56</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl70" x:str>G45, 4W, PINK</td>
+    <td class="xl71" align="right" x:num>78</td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[SHOPEE]LIVING MALL.ID</td>
+    <td class="xl65" x:str>418</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199567</td>
+    <td class="xl65" x:str>G45, 4W, MERAH</td>
+    <td class="xl65" x:str>G45, 4W, MERAH</td>
+    <td class="xl65" x:str>475475</td>
+    <td class="xl65" x:str>475475</td>
+    <td class="xl66" align="right" x:num>49</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl70" x:str>G45, 4Watt, Bening</td>
+    <td class="xl71" align="right" x:num>475</td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[SHOPEE]LIVING MALL.ID</td>
+    <td class="xl65" x:str>443</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199572</td>
+    <td class="xl65" x:str>ST64, 4W, HIJAU</td>
+    <td class="xl65" x:str>ST64, 4W, HIJAU</td>
+    <td class="xl65" x:str>427975</td>
+    <td class="xl65" x:str>427975</td>
+    <td class="xl66" align="right" x:num>45</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl70" x:str>G45, 4Watt, Teh</td>
+    <td class="xl71" align="right" x:num>985</td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[SHOPEE]LIVING MALL.ID</td>
+    <td class="xl65" x:str>667</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199569</td>
+    <td class="xl65" x:str>ST64, 4W, BIRU</td>
+    <td class="xl65" x:str>ST64, 4W, BIRU</td>
+    <td class="xl65" x:str>149500</td>
+    <td class="xl65" x:str>149500</td>
+    <td class="xl66" align="right" x:num>13</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl70" x:str>S14, 2W, Kaca Bening</td>
+    <td class="xl71" align="right" x:num>240</td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[SHOPEE]LIVING MALL.ID</td>
+    <td class="xl65" x:str>774</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199575</td>
+    <td class="xl65" x:str>S14, 2W, Kaca Bening</td>
+    <td class="xl65" x:str>S14, 2W, Kaca Bening</td>
+    <td class="xl65" x:str>39650</td>
+    <td class="xl65" x:str>39650</td>
+    <td class="xl66" align="right" x:num>6</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl70" x:str>S14, 2W, Kaca Teh</td>
+    <td class="xl71" align="right" x:num>919</td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[SHOPEE]LIVING MALL.ID</td>
+    <td class="xl65" x:str>874</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199573</td>
+    <td class="xl65" x:str>ST64, 4W, MERAH</td>
+    <td class="xl65" x:str>ST64, 4W, MERAH</td>
+    <td class="xl65" x:str>23000</td>
+    <td class="xl65" x:str>23000</td>
+    <td class="xl66" align="right" x:num>2</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl70" x:str>ST64, 4W, BIRU</td>
+    <td class="xl71" align="right" x:num>45</td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[SHOPEE]LIVING MALL.ID</td>
+    <td class="xl65" x:str>914</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199570</td>
+    <td class="xl65" x:str>ST64, 4W, PINK</td>
+    <td class="xl65" x:str>ST64, 4W, PINK</td>
+    <td class="xl65" x:str>11500</td>
+    <td class="xl65" x:str>11500</td>
+    <td class="xl66" align="right" x:num>1</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl70" x:str>ST64, 4W, HIJAU</td>
+    <td class="xl71" align="right" x:num>76</td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[SHOPEE]HAO-onlineshop</td>
+    <td class="xl65" x:str>61</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199562</td>
+    <td class="xl65" x:str>ST64, 4W, Kaca Teh</td>
+    <td class="xl65" x:str>ST64, 4W, Kaca Teh</td>
+    <td class="xl65" x:str>7213350</td>
+    <td class="xl65" x:str>7213350</td>
+    <td class="xl66" align="right" x:num>745</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl70" x:str>ST64, 4W, Kaca Teh</td>
+    <td class="xl71" align="right" x:num>1471</td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[SHOPEE]HAO-onlineshop</td>
+    <td class="xl65" x:str>87</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199564</td>
+    <td class="xl65" x:str>G45, 4W, Kaca Teh</td>
+    <td class="xl65" x:str>G45, 4Watt, Teh</td>
+    <td class="xl65" x:str>4101422</td>
+    <td class="xl65" x:str>4101422</td>
+    <td class="xl66" align="right" x:num>556</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl70" x:str>ST64, 4W, MERAH</td>
+    <td class="xl71" align="right" x:num>19</td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[SHOPEE]HAO-onlineshop</td>
+    <td class="xl65" x:str>111</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199574</td>
+    <td class="xl65" x:str>S14, 2W, Kaca Teh</td>
+    <td class="xl65" x:str>S14, 2W, Kaca Teh</td>
+    <td class="xl65" x:str>2799930</td>
+    <td class="xl65" x:str>2799930</td>
+    <td class="xl66" align="right" x:num>411</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl70" x:str>ST64, 4W, PINK</td>
+    <td class="xl71" align="right" x:num>20</td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[SHOPEE]HAO-onlineshop</td>
+    <td class="xl65" x:str>133</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199563</td>
+    <td class="xl65" x:str>G45, 2W, Kaca Teh</td>
+    <td class="xl65" x:str>G45, 2Watt, Teh</td>
+    <td class="xl65" x:str>2504250</td>
+    <td class="xl65" x:str>2504250</td>
+    <td class="xl66" align="right" x:num>349</td>
+    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl72" x:str>总计</td>
+    <td class="xl73" align="right" x:num>5528</td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[SHOPEE]HAO-onlineshop</td>
+    <td class="xl65" x:str>157</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199565</td>
+    <td class="xl65" x:str>G45, 4W, Kaca Bening</td>
+    <td class="xl65" x:str>G45, 4Watt, Bening</td>
+    <td class="xl65" x:str>1970187</td>
+    <td class="xl65" x:str>1970187</td>
+    <td class="xl66" align="right" x:num>273</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[SHOPEE]HAO-onlineshop</td>
+    <td class="xl65" x:str>241</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199575</td>
+    <td class="xl65" x:str>S14, 2W, Kaca Bening</td>
+    <td class="xl65" x:str>S14, 2W, Kaca Bening</td>
+    <td class="xl65" x:str>941200</td>
+    <td class="xl65" x:str>941200</td>
+    <td class="xl66" align="right" x:num>143</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[SHOPEE]HAO-onlineshop</td>
+    <td class="xl65" x:str>302</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199561</td>
+    <td class="xl65" x:str>G45, 2W, Kaca Bening</td>
+    <td class="xl65" x:str>G45, 2Watt, Bening</td>
+    <td class="xl65" x:str>707200</td>
+    <td class="xl65" x:str>707200</td>
+    <td class="xl66" align="right" x:num>103</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[SHOPEE]HAO-onlineshop</td>
+    <td class="xl65" x:str>647</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199567</td>
+    <td class="xl65" x:str>G45, 4W, MERAH</td>
+    <td class="xl65" x:str>G45, 4W, MERAH</td>
+    <td class="xl65" x:str>198075</td>
+    <td class="xl65" x:str>198075</td>
+    <td class="xl66" align="right" x:num>20</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[SHOPEE]HAO-onlineshop</td>
+    <td class="xl65" x:str>648</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199571</td>
+    <td class="xl65" x:str>G45, 4W, BIRU</td>
+    <td class="xl65" x:str>G45, 4W, BIRU</td>
+    <td class="xl65" x:str>196650</td>
+    <td class="xl65" x:str>196650</td>
+    <td class="xl66" align="right" x:num>20</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[SHOPEE]HAO-onlineshop</td>
+    <td class="xl65" x:str>662</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199572</td>
+    <td class="xl65" x:str>ST64, 4W, HIJAU</td>
+    <td class="xl65" x:str>ST64, 4W, HIJAU</td>
+    <td class="xl65" x:str>209875</td>
+    <td class="xl65" x:str>209875</td>
+    <td class="xl66" align="right" x:num>18</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[SHOPEE]HAO-onlineshop</td>
+    <td class="xl65" x:str>690</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199568</td>
+    <td class="xl65" x:str>G45, 4W, PINK</td>
+    <td class="xl65" x:str>G45, 4W, PINK</td>
+    <td class="xl65" x:str>156750</td>
+    <td class="xl65" x:str>156750</td>
+    <td class="xl66" align="right" x:num>16</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[SHOPEE]HAO-onlineshop</td>
+    <td class="xl65" x:str>691</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199569</td>
+    <td class="xl65" x:str>ST64, 4W, BIRU</td>
+    <td class="xl65" x:str>ST64, 4W, BIRU</td>
+    <td class="xl65" x:str>185150</td>
+    <td class="xl65" x:str>185150</td>
+    <td class="xl66" align="right" x:num>16</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[SHOPEE]HAO-onlineshop</td>
+    <td class="xl65" x:str>692</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199570</td>
+    <td class="xl65" x:str>ST64, 4W, PINK</td>
+    <td class="xl65" x:str>ST64, 4W, PINK</td>
+    <td class="xl65" x:str>185725</td>
+    <td class="xl65" x:str>185725</td>
+    <td class="xl66" align="right" x:num>16</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[SHOPEE]HAO-onlineshop</td>
+    <td class="xl65" x:str>702</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199566</td>
+    <td class="xl65" x:str>G45, 4W, HIJAU</td>
+    <td class="xl65" x:str>G45, 4W, HIJAU</td>
+    <td class="xl65" x:str>147250</td>
+    <td class="xl65" x:str>147250</td>
+    <td class="xl66" align="right" x:num>15</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[SHOPEE]HAO-onlineshop</td>
+    <td class="xl65" x:str>719</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199573</td>
+    <td class="xl65" x:str>ST64, 4W, MERAH</td>
+    <td class="xl65" x:str>ST64, 4W, MERAH</td>
+    <td class="xl65" x:str>162150</td>
+    <td class="xl65" x:str>162150</td>
+    <td class="xl66" align="right" x:num>14</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[SHOPEE]CAHAYA Indonesia Official Store</td>
+    <td class="xl65" x:str>144</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199564</td>
+    <td class="xl65" x:str>G45, 4W, Kaca Teh</td>
+    <td class="xl65" x:str>G45, 4Watt, Teh</td>
+    <td class="xl65" x:str>297540</td>
+    <td class="xl65" x:str>297540</td>
+    <td class="xl66" align="right" x:num>34</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[SHOPEE]CAHAYA Indonesia Official Store</td>
+    <td class="xl65" x:str>146</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199562</td>
+    <td class="xl65" x:str>ST64, 4W, Kaca Teh</td>
+    <td class="xl65" x:str>ST64, 4W, Kaca Teh</td>
+    <td class="xl65" x:str>378480</td>
+    <td class="xl65" x:str>378480</td>
+    <td class="xl66" align="right" x:num>33</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[SHOPEE]CAHAYA Indonesia Official Store</td>
+    <td class="xl65" x:str>169</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199563</td>
+    <td class="xl65" x:str>G45, 2W, Kaca Teh</td>
+    <td class="xl65" x:str>G45, 2Watt, Teh</td>
+    <td class="xl65" x:str>188160</td>
+    <td class="xl65" x:str>188160</td>
+    <td class="xl66" align="right" x:num>22</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[SHOPEE]CAHAYA Indonesia Official Store</td>
+    <td class="xl65" x:str>241</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199574</td>
+    <td class="xl65" x:str>S14, 2W, Kaca Teh</td>
+    <td class="xl65" x:str>S14, 2W, Kaca Teh</td>
+    <td class="xl65" x:str>64722</td>
+    <td class="xl65" x:str>64722</td>
+    <td class="xl66" align="right" x:num>8</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[SHOPEE]CAHAYA Indonesia Official Store</td>
+    <td class="xl65" x:str>258</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199571</td>
+    <td class="xl65" x:str>G45, 4W, BIRU</td>
+    <td class="xl65" x:str>G45, 4W, BIRU</td>
+    <td class="xl65" x:str>69540</td>
+    <td class="xl65" x:str>69540</td>
+    <td class="xl66" align="right" x:num>6</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[SHOPEE]CAHAYA Indonesia Official Store</td>
+    <td class="xl65" x:str>276</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199565</td>
+    <td class="xl65" x:str>G45, 4W, Kaca Bening</td>
+    <td class="xl65" x:str>G45, 4Watt, Bening</td>
+    <td class="xl65" x:str>43992</td>
+    <td class="xl65" x:str>43992</td>
+    <td class="xl66" align="right" x:num>5</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[SHOPEE]CAHAYA Indonesia Official Store</td>
+    <td class="xl65" x:str>307</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199561</td>
+    <td class="xl65" x:str>G45, 2W, Kaca Bening</td>
+    <td class="xl65" x:str>G45, 2Watt, Bening</td>
+    <td class="xl65" x:str>24480</td>
+    <td class="xl65" x:str>24480</td>
+    <td class="xl66" align="right" x:num>3</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[SHOPEE]CAHAYA Indonesia Official Store</td>
+    <td class="xl65" x:str>308</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199569</td>
+    <td class="xl65" x:str>ST64, 4W, BIRU</td>
+    <td class="xl65" x:str>ST64, 4W, BIRU</td>
+    <td class="xl65" x:str>42090</td>
+    <td class="xl65" x:str>42090</td>
+    <td class="xl66" align="right" x:num>3</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[SHOPEE]CAHAYA Indonesia Official Store</td>
+    <td class="xl65" x:str>309</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199570</td>
+    <td class="xl65" x:str>ST64, 4W, PINK</td>
+    <td class="xl65" x:str>ST64, 4W, PINK</td>
+    <td class="xl65" x:str>42090</td>
+    <td class="xl65" x:str>42090</td>
+    <td class="xl66" align="right" x:num>3</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[SHOPEE]CAHAYA Indonesia Official Store</td>
+    <td class="xl65" x:str>336</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199568</td>
+    <td class="xl65" x:str>G45, 4W, PINK</td>
+    <td class="xl65" x:str>G45, 4W, PINK</td>
+    <td class="xl65" x:str>22800</td>
+    <td class="xl65" x:str>22800</td>
+    <td class="xl66" align="right" x:num>2</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[SHOPEE]CAHAYA Indonesia Official Store</td>
+    <td class="xl65" x:str>372</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199572</td>
+    <td class="xl65" x:str>ST64, 4W, HIJAU</td>
+    <td class="xl65" x:str>ST64, 4W, HIJAU</td>
+    <td class="xl65" x:str>13800</td>
+    <td class="xl65" x:str>13800</td>
+    <td class="xl66" align="right" x:num>1</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[SHOPEE]CAHAYA Indonesia Official Store</td>
+    <td class="xl65" x:str>373</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199573</td>
+    <td class="xl65" x:str>ST64, 4W, MERAH</td>
+    <td class="xl65" x:str>ST64, 4W, MERAH</td>
+    <td class="xl65" x:str>13800</td>
+    <td class="xl65" x:str>13800</td>
+    <td class="xl66" align="right" x:num>1</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[SHOPEE]CAHAYA Indonesia Official Store</td>
+    <td class="xl65" x:str>374</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199575</td>
+    <td class="xl65" x:str>S14, 2W, Kaca Bening</td>
+    <td class="xl65" x:str>S14, 2W, Kaca Bening</td>
+    <td class="xl65" x:str>7800</td>
+    <td class="xl65" x:str>7800</td>
+    <td class="xl66" align="right" x:num>1</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[LAZADA]HAO-Onlineshop</td>
+    <td class="xl65" x:str>565</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199562</td>
+    <td class="xl65" x:str>ST64, 4W, Kaca Teh</td>
+    <td class="xl65" x:str>ST64, 4W, Kaca Teh</td>
+    <td class="xl65" x:str>19000</td>
+    <td class="xl65" x:str>19000</td>
+    <td class="xl66" align="right" x:num>2</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[LAZADA]HAO-Onlineshop</td>
+    <td class="xl65" x:str>566</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199574</td>
+    <td class="xl65" x:str>S14, 2W, Kaca Teh</td>
+    <td class="xl65" x:str>S14, 2W, Kaca Teh</td>
+    <td class="xl65" x:str>13400</td>
+    <td class="xl65" x:str>13400</td>
+    <td class="xl66" align="right" x:num>2</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[LAZADA]HAO-Onlineshop</td>
+    <td class="xl65" x:str>729</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199567</td>
+    <td class="xl65" x:str>G45, 4W, MERAH</td>
+    <td class="xl65" x:str>G45, 4W, MERAH</td>
+    <td class="xl74" colspan="3" style='mso-ignore:colspan;'></td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[LAZADA]LIVING MALL.ID</td>
+    <td class="xl65" x:str>197</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199562</td>
+    <td class="xl65" x:str>ST64, 4W, Kaca Teh</td>
+    <td class="xl65" x:str>ST64, 4W, Kaca Teh</td>
+    <td class="xl65" x:str>478610</td>
+    <td class="xl65" x:str>478610</td>
+    <td class="xl66" align="right" x:num>50</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[LAZADA]LIVING MALL.ID</td>
+    <td class="xl65" x:str>224</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199564</td>
+    <td class="xl65" x:str>G45, 4W, Kaca Teh</td>
+    <td class="xl65" x:str>G45, 4Watt, Teh</td>
+    <td class="xl65" x:str>297250</td>
+    <td class="xl65" x:str>297250</td>
+    <td class="xl66" align="right" x:num>41</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[LAZADA]LIVING MALL.ID</td>
+    <td class="xl65" x:str>259</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199561</td>
+    <td class="xl65" x:str>G45, 2W, Kaca Bening</td>
+    <td class="xl65" x:str>G45, 2Watt, Bening</td>
+    <td class="xl65" x:str>224400</td>
+    <td class="xl65" x:str>224400</td>
+    <td class="xl66" align="right" x:num>33</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[LAZADA]LIVING MALL.ID</td>
+    <td class="xl65" x:str>294</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199574</td>
+    <td class="xl65" x:str>S14, 2W, Kaca Teh</td>
+    <td class="xl65" x:str>S14, 2W, Kaca Teh</td>
+    <td class="xl65" x:str>174200</td>
+    <td class="xl65" x:str>174200</td>
+    <td class="xl66" align="right" x:num>26</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[LAZADA]LIVING MALL.ID</td>
+    <td class="xl65" x:str>429</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199563</td>
+    <td class="xl65" x:str>G45, 2W, Kaca Teh</td>
+    <td class="xl65" x:str>G45, 2Watt, Teh</td>
+    <td class="xl65" x:str>77000</td>
+    <td class="xl65" x:str>77000</td>
+    <td class="xl66" align="right" x:num>11</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[LAZADA]LIVING MALL.ID</td>
+    <td class="xl65" x:str>484</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199565</td>
+    <td class="xl65" x:str>G45, 4W, Kaca Bening</td>
+    <td class="xl65" x:str>G45, 4Watt, Bening</td>
+    <td class="xl65" x:str>59224</td>
+    <td class="xl65" x:str>59224</td>
+    <td class="xl66" align="right" x:num>8</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[LAZADA]LIVING MALL.ID</td>
+    <td class="xl65" x:str>543</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199575</td>
+    <td class="xl65" x:str>S14, 2W, Kaca Bening</td>
+    <td class="xl65" x:str>S14, 2W, Kaca Bening</td>
+    <td class="xl65" x:str>32500</td>
+    <td class="xl65" x:str>32500</td>
+    <td class="xl66" align="right" x:num>5</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[LAZADA]LIVING MALL.ID</td>
+    <td class="xl65" x:str>722</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199566</td>
+    <td class="xl65" x:str>G45, 4W, HIJAU</td>
+    <td class="xl65" x:str>G45, 4W, HIJAU</td>
+    <td class="xl65" x:str>9405</td>
+    <td class="xl65" x:str>9405</td>
+    <td class="xl66" align="right" x:num>1</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[LAZADA]LIVING MALL.ID</td>
+    <td class="xl65" x:str>723</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199568</td>
+    <td class="xl65" x:str>G45, 4W, PINK</td>
+    <td class="xl65" x:str>G45, 4W, PINK</td>
+    <td class="xl65" x:str>9500</td>
+    <td class="xl65" x:str>9500</td>
+    <td class="xl66" align="right" x:num>1</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[LAZADA]LIVING MALL.ID</td>
+    <td class="xl65" x:str>724</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199572</td>
+    <td class="xl65" x:str>ST64, 4W, HIJAU</td>
+    <td class="xl65" x:str>ST64, 4W, HIJAU</td>
+    <td class="xl65" x:str>12075</td>
+    <td class="xl65" x:str>12075</td>
+    <td class="xl66" align="right" x:num>1</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[LAZADA]LIVING MALL.ID</td>
+    <td class="xl65" x:str>725</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199573</td>
+    <td class="xl65" x:str>ST64, 4W, MERAH</td>
+    <td class="xl65" x:str>ST64, 4W, MERAH</td>
+    <td class="xl65" x:str>12075</td>
+    <td class="xl65" x:str>12075</td>
+    <td class="xl66" align="right" x:num>1</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[LAZADA]Cahaya Lighting &amp; Décor</td>
+    <td class="xl65" x:str>120</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199563</td>
+    <td class="xl65" x:str>G45, 2W, Kaca Teh</td>
+    <td class="xl65" x:str>G45, 2Watt, Teh</td>
+    <td class="xl65" x:str>33600</td>
+    <td class="xl65" x:str>33600</td>
+    <td class="xl66" align="right" x:num>4</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[LAZADA]Cahaya Lighting &amp; Décor</td>
+    <td class="xl65" x:str>173</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199564</td>
+    <td class="xl65" x:str>G45, 4W, Kaca Teh</td>
+    <td class="xl65" x:str>G45, 4Watt, Teh</td>
+    <td class="xl65" x:str>18270</td>
+    <td class="xl65" x:str>18270</td>
+    <td class="xl66" align="right" x:num>2</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[LAZADA]Cahaya Lighting &amp; Décor</td>
+    <td class="xl65" x:str>174</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199567</td>
+    <td class="xl65" x:str>G45, 4W, MERAH</td>
+    <td class="xl65" x:str>G45, 4W, MERAH</td>
+    <td class="xl65" x:str>22800</td>
+    <td class="xl65" x:str>22800</td>
+    <td class="xl66" align="right" x:num>2</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[LAZADA]Cahaya Lighting &amp; Décor</td>
+    <td class="xl65" x:str>224</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199574</td>
+    <td class="xl65" x:str>S14, 2W, Kaca Teh</td>
+    <td class="xl65" x:str>S14, 2W, Kaca Teh</td>
+    <td class="xl65" x:str>8040</td>
+    <td class="xl65" x:str>8040</td>
+    <td class="xl66" align="right" x:num>1</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[TIKTOK]LIVING MALL.ID</td>
+    <td class="xl65" x:str>153</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199562</td>
+    <td class="xl65" x:str>ST64, 4W, Kaca Teh</td>
+    <td class="xl65" x:str>ST64, 4W, Kaca Teh</td>
+    <td class="xl65" x:str>361000</td>
+    <td class="xl65" x:str>361000</td>
+    <td class="xl66" align="right" x:num>38</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[TIKTOK]LIVING MALL.ID</td>
+    <td class="xl65" x:str>192</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199564</td>
+    <td class="xl65" x:str>G45, 4W, Kaca Teh</td>
+    <td class="xl65" x:str>G45, 4Watt, Teh</td>
+    <td class="xl65" x:str>217500</td>
+    <td class="xl65" x:str>217500</td>
+    <td class="xl66" align="right" x:num>30</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[TIKTOK]LIVING MALL.ID</td>
+    <td class="xl65" x:str>255</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199575</td>
+    <td class="xl65" x:str>S14, 2W, Kaca Bening</td>
+    <td class="xl65" x:str>S14, 2W, Kaca Bening</td>
+    <td class="xl65" x:str>136500</td>
+    <td class="xl65" x:str>136500</td>
+    <td class="xl66" align="right" x:num>21</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[TIKTOK]LIVING MALL.ID</td>
+    <td class="xl65" x:str>304</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199574</td>
+    <td class="xl65" x:str>S14, 2W, Kaca Teh</td>
+    <td class="xl65" x:str>S14, 2W, Kaca Teh</td>
+    <td class="xl65" x:str>87100</td>
+    <td class="xl65" x:str>87100</td>
+    <td class="xl66" align="right" x:num>13</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[TIKTOK]LIVING MALL.ID</td>
+    <td class="xl65" x:str>360</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199561</td>
+    <td class="xl65" x:str>G45, 2W, Kaca Bening</td>
+    <td class="xl65" x:str>G45, 2Watt, Bening</td>
+    <td class="xl65" x:str>68000</td>
+    <td class="xl65" x:str>68000</td>
+    <td class="xl66" align="right" x:num>10</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[TIKTOK]LIVING MALL.ID</td>
+    <td class="xl65" x:str>385</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199563</td>
+    <td class="xl65" x:str>G45, 2W, Kaca Teh</td>
+    <td class="xl65" x:str>G45, 2Watt, Teh</td>
+    <td class="xl65" x:str>63000</td>
+    <td class="xl65" x:str>63000</td>
+    <td class="xl66" align="right" x:num>9</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[TIKTOK]LIVING MALL.ID</td>
+    <td class="xl65" x:str>399</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199565</td>
+    <td class="xl65" x:str>G45, 4W, Kaca Bening</td>
+    <td class="xl65" x:str>G45, 4Watt, Bening</td>
+    <td class="xl65" x:str>56400</td>
+    <td class="xl65" x:str>56400</td>
+    <td class="xl66" align="right" x:num>8</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[TIKTOK]LIVING MALL.ID</td>
+    <td class="xl65" x:str>571</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199569</td>
+    <td class="xl65" x:str>ST64, 4W, BIRU</td>
+    <td class="xl65" x:str>ST64, 4W, BIRU</td>
+    <td class="xl65" x:str>23000</td>
+    <td class="xl65" x:str>23000</td>
+    <td class="xl66" align="right" x:num>2</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[TIKTOK]LIVING MALL.ID</td>
+    <td class="xl65" x:str>614</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199571</td>
+    <td class="xl65" x:str>G45, 4W, BIRU</td>
+    <td class="xl65" x:str>G45, 4W, BIRU</td>
+    <td class="xl65" x:str>9500</td>
+    <td class="xl65" x:str>9500</td>
+    <td class="xl66" align="right" x:num>1</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[TIKTOK]LIVING MALL.ID</td>
+    <td class="xl65" x:str>615</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199573</td>
+    <td class="xl65" x:str>ST64, 4W, MERAH</td>
+    <td class="xl65" x:str>ST64, 4W, MERAH</td>
+    <td class="xl65" x:str>11500</td>
+    <td class="xl65" x:str>11500</td>
+    <td class="xl66" align="right" x:num>1</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[TIKTOK]LIVING MALL.ID</td>
+    <td class="xl65" x:str>653</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199570</td>
+    <td class="xl65" x:str>ST64, 4W, PINK</td>
+    <td class="xl65" x:str>ST64, 4W, PINK</td>
+    <td class="xl74" colspan="3" style='mso-ignore:colspan;'></td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[TIKTOK]HAO-ONLINESHOP</td>
+    <td class="xl65" x:str>95</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199564</td>
+    <td class="xl65" x:str>G45, 4W, Kaca Teh</td>
+    <td class="xl65" x:str>G45, 4Watt, Teh</td>
+    <td class="xl65" x:str>993250</td>
+    <td class="xl65" x:str>993250</td>
+    <td class="xl66" align="right" x:num>137</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[TIKTOK]HAO-ONLINESHOP</td>
+    <td class="xl65" x:str>132</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199565</td>
+    <td class="xl65" x:str>G45, 4W, Kaca Bening</td>
+    <td class="xl65" x:str>G45, 4Watt, Bening</td>
+    <td class="xl65" x:str>648600</td>
+    <td class="xl65" x:str>648600</td>
+    <td class="xl66" align="right" x:num>92</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[TIKTOK]HAO-ONLINESHOP</td>
+    <td class="xl65" x:str>135</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199563</td>
+    <td class="xl65" x:str>G45, 2W, Kaca Teh</td>
+    <td class="xl65" x:str>G45, 2Watt, Teh</td>
+    <td class="xl65" x:str>630000</td>
+    <td class="xl65" x:str>630000</td>
+    <td class="xl66" align="right" x:num>90</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[TIKTOK]HAO-ONLINESHOP</td>
+    <td class="xl65" x:str>138</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199562</td>
+    <td class="xl65" x:str>ST64, 4W, Kaca Teh</td>
+    <td class="xl65" x:str>ST64, 4W, Kaca Teh</td>
+    <td class="xl65" x:str>836000</td>
+    <td class="xl65" x:str>836000</td>
+    <td class="xl66" align="right" x:num>88</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[TIKTOK]HAO-ONLINESHOP</td>
+    <td class="xl65" x:str>175</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199575</td>
+    <td class="xl65" x:str>S14, 2W, Kaca Bening</td>
+    <td class="xl65" x:str>S14, 2W, Kaca Bening</td>
+    <td class="xl65" x:str>396500</td>
+    <td class="xl65" x:str>396500</td>
+    <td class="xl66" align="right" x:num>61</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[TIKTOK]HAO-ONLINESHOP</td>
+    <td class="xl65" x:str>225</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199574</td>
+    <td class="xl65" x:str>S14, 2W, Kaca Teh</td>
+    <td class="xl65" x:str>S14, 2W, Kaca Teh</td>
+    <td class="xl65" x:str>254600</td>
+    <td class="xl65" x:str>254600</td>
+    <td class="xl66" align="right" x:num>38</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[TIKTOK]HAO-ONLINESHOP</td>
+    <td class="xl65" x:str>367</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199572</td>
+    <td class="xl65" x:str>ST64, 4W, HIJAU</td>
+    <td class="xl65" x:str>ST64, 4W, HIJAU</td>
+    <td class="xl65" x:str>126500</td>
+    <td class="xl65" x:str>126500</td>
+    <td class="xl66" align="right" x:num>11</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[TIKTOK]HAO-ONLINESHOP</td>
+    <td class="xl65" x:str>417</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199571</td>
+    <td class="xl65" x:str>G45, 4W, BIRU</td>
+    <td class="xl65" x:str>G45, 4W, BIRU</td>
+    <td class="xl65" x:str>57000</td>
+    <td class="xl65" x:str>57000</td>
+    <td class="xl66" align="right" x:num>6</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[TIKTOK]HAO-ONLINESHOP</td>
+    <td class="xl65" x:str>495</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199568</td>
+    <td class="xl65" x:str>G45, 4W, PINK</td>
+    <td class="xl65" x:str>G45, 4W, PINK</td>
+    <td class="xl65" x:str>28500</td>
+    <td class="xl65" x:str>28500</td>
+    <td class="xl66" align="right" x:num>3</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[TIKTOK]HAO-ONLINESHOP</td>
+    <td class="xl65" x:str>593</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199561</td>
+    <td class="xl65" x:str>G45, 2W, Kaca Bening</td>
+    <td class="xl65" x:str>G45, 2Watt, Bening</td>
+    <td class="xl65" x:str>6800</td>
+    <td class="xl65" x:str>6800</td>
+    <td class="xl66" align="right" x:num>1</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[TIKTOK]HAO-ONLINESHOP</td>
+    <td class="xl65" x:str>594</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199567</td>
+    <td class="xl65" x:str>G45, 4W, MERAH</td>
+    <td class="xl65" x:str>G45, 4W, MERAH</td>
+    <td class="xl65" x:str>9500</td>
+    <td class="xl65" x:str>9500</td>
+    <td class="xl66" align="right" x:num>1</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[TIKTOK]HAO-ONLINESHOP</td>
+    <td class="xl65" x:str>595</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199569</td>
+    <td class="xl65" x:str>ST64, 4W, BIRU</td>
+    <td class="xl65" x:str>ST64, 4W, BIRU</td>
+    <td class="xl65" x:str>11500</td>
+    <td class="xl65" x:str>11500</td>
+    <td class="xl66" align="right" x:num>1</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[TIKTOK]HAO-ONLINESHOP</td>
+    <td class="xl65" x:str>642</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199573</td>
+    <td class="xl65" x:str>ST64, 4W, MERAH</td>
+    <td class="xl65" x:str>ST64, 4W, MERAH</td>
+    <td class="xl74" colspan="3" style='mso-ignore:colspan;'></td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[TIKTOK]Toko Elektrik Max</td>
+    <td class="xl65" x:str>72</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199562</td>
+    <td class="xl65" x:str>ST64, 4W, Kaca Teh</td>
+    <td class="xl65" x:str>ST64, 4W, Kaca Teh</td>
+    <td class="xl65" x:str>627000</td>
+    <td class="xl65" x:str>627000</td>
+    <td class="xl66" align="right" x:num>66</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[TIKTOK]Toko Elektrik Max</td>
+    <td class="xl65" x:str>99</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199564</td>
+    <td class="xl65" x:str>G45, 4W, Kaca Teh</td>
+    <td class="xl65" x:str>G45, 4Watt, Teh</td>
+    <td class="xl65" x:str>311750</td>
+    <td class="xl65" x:str>311750</td>
+    <td class="xl66" align="right" x:num>43</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[TIKTOK]Toko Elektrik Max</td>
+    <td class="xl65" x:str>133</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199565</td>
+    <td class="xl65" x:str>G45, 4W, Kaca Bening</td>
+    <td class="xl65" x:str>G45, 4Watt, Bening</td>
+    <td class="xl65" x:str>176250</td>
+    <td class="xl65" x:str>176250</td>
+    <td class="xl66" align="right" x:num>25</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[TIKTOK]Toko Elektrik Max</td>
+    <td class="xl65" x:str>184</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199569</td>
+    <td class="xl65" x:str>ST64, 4W, BIRU</td>
+    <td class="xl65" x:str>ST64, 4W, BIRU</td>
+    <td class="xl65" x:str>115000</td>
+    <td class="xl65" x:str>115000</td>
+    <td class="xl66" align="right" x:num>10</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[TIKTOK]Toko Elektrik Max</td>
+    <td class="xl65" x:str>185</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199574</td>
+    <td class="xl65" x:str>S14, 2W, Kaca Teh</td>
+    <td class="xl65" x:str>S14, 2W, Kaca Teh</td>
+    <td class="xl65" x:str>67000</td>
+    <td class="xl65" x:str>67000</td>
+    <td class="xl66" align="right" x:num>10</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[TIKTOK]Toko Elektrik Max</td>
+    <td class="xl65" x:str>190</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199561</td>
+    <td class="xl65" x:str>G45, 2W, Kaca Bening</td>
+    <td class="xl65" x:str>G45, 2Watt, Bening</td>
+    <td class="xl65" x:str>61200</td>
+    <td class="xl65" x:str>61200</td>
+    <td class="xl66" align="right" x:num>9</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[TIKTOK]Toko Elektrik Max</td>
+    <td class="xl65" x:str>241</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199575</td>
+    <td class="xl65" x:str>S14, 2W, Kaca Bening</td>
+    <td class="xl65" x:str>S14, 2W, Kaca Bening</td>
+    <td class="xl65" x:str>19500</td>
+    <td class="xl65" x:str>19500</td>
+    <td class="xl66" align="right" x:num>3</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <tr height="76.67" style='height:46.00pt;mso-height-source:userset;mso-height-alt:920;'>
+    <td class="xl65" height="76.67" style='height:46.00pt;' x:str>[TIKTOK]Toko Elektrik Max</td>
+    <td class="xl65" x:str>289</td>
+    <td class="xl65" x:str>130199171</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN 2W 4W BOHLAM PIJAR EDISON CAFE DEKORASI G45 LAMPU GANTUN E27 ST64</td>
+    <td class="xl65" x:str>LAMPU LED FILAMEN</td>
+    <td class="xl65" x:str>130199563</td>
+    <td class="xl65" x:str>G45, 2W, Kaca Teh</td>
+    <td class="xl65" x:str>G45, 2Watt, Teh</td>
+    <td class="xl65" x:str>7000</td>
+    <td class="xl65" x:str>7000</td>
+    <td class="xl66" align="right" x:num>1</td>
+    <td colspan="4" style='mso-ignore:colspan;'></td>
+   </tr>
+   <![if supportMisalignedColumns]>
+    <tr width="0" style='display:none;'>
+     <td width="269" style='width:161;'></td>
+     <td width="124" style='width:74;'></td>
+     <td width="216" style='width:130;'></td>
+     <td width="51" style='width:31;'></td>
+    </tr>
+   <![endif]>
+  </table>
+ </body>
+</html>
