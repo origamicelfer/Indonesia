@@ -1,0 +1,38 @@
+Crystal Forms:制作该数据库系统的公司
+_________________________________________________________________________________________________
+Pancaran
+1.Master Data 里可以查看我们自己工厂品牌的库存情况
+history jual查看历史卖出记录(这样你可以知道最近的卖出价格)
+Kartu Stock则可以查看现在的库存量
+
+2.penjualan就是SO订单处理(送货出库),这里只针对雅加达本部自己接收的SO订单(大部分还是在cahaya里面进行SO)
+
+3.Stock
+Penerimaan接收 Barang Lain(其他货物接收)这里是入库操作，我们所有当天生产的产品在这里入库
+Pengeluaran出库 Barang Lain(其他货物出库)这里是出库操作，也有着出库记录
+
+4.Stock的Persediaanpersediaan(供应) barang
+
+stock里的Laporan Barang Keluar/Masuk分别有出入库记录
+(pilih Kode Barang可以一次性查看多个产品)
+
+Stock里的Lapoan Pengeluaran Lain 和Laporan Barang Keluar不同的是，前者详细记录的每次出库的寄送对象
+而后者只是做了两个大类：线下供给和网店供给，左边是线下，右边是网店,而看SALDO AWAL，带有Penjualan ke
+的就是线下寄送，其它则是网店。
+最重要的是Lapoan Penerimaan Lain记录的只是网店(cahaya啊源啊伟客户)的寄送信息，没有线下！
+
+Lapoan Penerimaan Lain和 Laporan Barang Masuk则没有那么多弯弯绕绕，前者就是进库的记录
+后者也是线下和网店的入库两大类
+
+___________________________________________________________________________________________________________
+Cahaya
+上述已有功能Cahaya都有
+但不同的是Cahaya的Master Data查看库存都不是自己的牌子，都是贴牌那种,如果看到自己的产品可以
+看到大多数不是负数就是为零，因为这已经废弃了
+1.Stock
+Penjualan里的Laporan Detail Penjualan是销售报告
+
+2.Penjualan里的Dengan Bukti 是网店对账付款记录
+
+3.Listi Penjualan里如果要修改订单，要先unposting,然后点击钥匙输入revisi，然后进行修改
+订单如果为红则表明还没付款，绿色的是已经付过款了
