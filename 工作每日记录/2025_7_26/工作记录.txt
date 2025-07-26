@@ -1,0 +1,3 @@
+先将Lappersediaan拿去排序。
+然后新建一列koli（出库箱数）
+最后拿去mark
